@@ -89,45 +89,6 @@ The ChatBot is a console-based application developed in __Java__. It serves as a
                                                                      | - getInt()              |        | - parse(String): JSONArray |
                                                                      +-------------------------+        | - removeCurrentChat()      |
                                                                                                         +----------------------------+
-
-+----------------------------------+
-|      Recipe                      |
-+----------------------------------+
-| - recipeId: int                  |
-| - recipeName: String             |
-| - ingredients: List<Ingredient>  |
-| - instructions: List<String>     |
-+----------------------------------+
-| + constructors, getters, setters |
-+----------------------------------+
-
-+-----------------------------------+
-|    Ingredient                     |
-+-----------------------------------+
-| - ingredientName: String          |
-| - quantity: double                |
-| - unit: String                    |
-+-----------------------------------+
-| + constructors, getters, setters  |
-+-----------------------------------+
-
-+--------------------------------+
-| RecipeBookManager              |
-+--------------------------------+
-| - recipes: List<Recipe>        |
-+--------------------------------+
-| + addRecipe(Recipe)            |
-| + removeRecipe(int)            |
-| + viewRecipes()                |
-| + findRecipeById(int): Recipe  |
-+--------------------------------+
-
-+---------------------+
-|      MainApp        |
-+---------------------+
-| + main(String[])    |
-+---------------------+
-
 ```
 ## Preview
 
